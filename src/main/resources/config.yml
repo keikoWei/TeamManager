@@ -1,0 +1,50 @@
+###### --- Config Message配置 --- ######
+message:
+  TeamMenu_Config: '§6隊伍選單'
+  TeamMemberMenu_Config: '§6隊伍成員'
+  TeamSettingMenu_Config: '§6隊伍設定'
+
+
+  TeamInformationIcon: '§a隊伍資訊選單'
+
+  TeamMemberIcon: '§a隊伍成員選單'
+
+
+  SettingIcon: '§a隊伍設定'
+
+
+  ExitIcon: '§a離開隊伍'
+
+
+  NothingIcon: '§7尚未開放'
+
+  TeamInformation:
+    - '§a******************************'
+    - '§e隊伍名稱: '
+    - '§e隊長: '
+    - '§e隊員: '
+    - '§e隊伍申請狀態: '
+    - '§e'
+    - '§e'
+    - '§a******************************'
+
+
+
+
+###### --- Leader Permission配置 --- ######
+Groups:
+  member:
+    permissions:
+      - Team.Leader
+
+###### ---------------------------- ######
+
+
+
+###### --- TeamChannel Permission配置 --- ######
+Channel:
+  member:
+    permissions:
+      - Team.Channel
+
+###### --------------------------------- ######

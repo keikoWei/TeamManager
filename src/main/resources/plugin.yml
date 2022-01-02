@@ -1,0 +1,19 @@
+name: TeamManagerPlugins
+version: '${project.version}'
+main: com.me.keiko.teammanagerplugins.TeamManagerPlugins
+api-version: 1.17
+authors: [ wingsofliberty ]
+description: make a team plugins
+commands:
+  Team:
+    description: open team list
+  TestMessage:
+    description: 123
+  TeamReload:
+    description: reload config of team plugins
+permissions:
+  team.leader:
+    default: false
+    description: give a player permission leader
+
+
